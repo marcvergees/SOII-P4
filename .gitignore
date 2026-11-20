@@ -1,0 +1,11 @@
+# Dades grans
+XVPCA.csv
+data/XVPCA.csv
+
+# Binaris i fitxers objecte
+secuencial
+secuencial.o
+*.o
+
+# Fitxers de sistema
+.DS_Store

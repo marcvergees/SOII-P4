@@ -1,0 +1,775 @@
+ID,CODI_EOI,ESTACION,MAGNITUD,CONTAMINANTE,UNIDAD
+0,00000002,,6,CO,mg/m3
+1,08015001,Badalona,1,SO2,ug/m3
+2,08015001,Badalona,3,PS,ug/m3
+3,08015001,Badalona,6,CO,mg/m3
+4,08015001,Badalona,7,NO,ug/m3
+5,08015001,Badalona,8,NO2,ug/m3
+6,08015001,Badalona,14,O3,ug/m3
+7,08015021,Badalona,1,SO2,ug/m3
+8,08015021,Badalona,6,CO,mg/m3
+9,08015021,Badalona,7,NO,ug/m3
+10,08015021,Badalona,8,NO2,ug/m3
+11,08015021,Badalona,12,NOX,ug/m3
+12,08015021,Badalona,14,O3,ug/m3
+13,08019003,Barcelona (St. Gervasi),1,SO2,ug/m3
+14,08019003,Barcelona (St. Gervasi),3,PS,ug/m3
+15,08019003,Barcelona (St. Gervasi),6,CO,mg/m3
+16,08019003,Barcelona (St. Gervasi),7,NO,ug/m3
+17,08019003,Barcelona (St. Gervasi),8,NO2,ug/m3
+18,08019003,Barcelona (St. Gervasi),14,O3,ug/m3
+19,08019003,Barcelona (St. Gervasi),42,HCT,ppm
+20,08019003,Barcelona (St. Gervasi),44,HCNM,ppm
+21,08019004,Barcelona (Poblenou),1,SO2,ug/m3
+22,08019004,Barcelona (Poblenou),6,CO,mg/m3
+23,08019004,Barcelona (Poblenou),7,NO,ug/m3
+24,08019004,Barcelona (Poblenou),8,NO2,ug/m3
+25,08019004,Barcelona (Poblenou),9,PM2.5,ug/m3
+26,08019004,Barcelona (Poblenou),10,PM10,ug/m3
+27,08019004,Barcelona (Poblenou),12,NOX,ug/m3
+28,08019004,Barcelona (Poblenou),14,O3,ug/m3
+29,08019039,Barcelona (Sagrera),1,SO2,ug/m3
+30,08019039,Barcelona (Sagrera),3,PS,ug/m3
+31,08019039,Barcelona (Sagrera),6,CO,mg/m3
+32,08019039,Barcelona (Sagrera),7,NO,ug/m3
+33,08019039,Barcelona (Sagrera),8,NO2,ug/m3
+34,08019039,Barcelona (Sagrera),10,PM10,ug/m3
+35,08019039,Barcelona (Sagrera),14,O3,ug/m3
+36,08019042,Barcelona (Sants),1,SO2,ug/m3
+37,08019042,Barcelona (Sants),6,CO,mg/m3
+38,08019042,Barcelona (Sants),7,NO,ug/m3
+39,08019042,Barcelona (Sants),8,NO2,ug/m3
+40,08019042,Barcelona (Sants),10,PM10,ug/m3
+41,08019042,Barcelona (Sants),12,NOX,ug/m3
+42,08019043,Barcelona (Eixample),1,SO2,ug/m3
+43,08019043,Barcelona (Eixample),6,CO,mg/m3
+44,08019043,Barcelona (Eixample),7,NO,ug/m3
+45,08019043,Barcelona (Eixample),8,NO2,ug/m3
+46,08019043,Barcelona (Eixample),9,PM2.5,ug/m3
+47,08019043,Barcelona (Eixample),10,PM10,ug/m3
+48,08019043,Barcelona (Eixample),12,NOX,ug/m3
+49,08019043,Barcelona (Eixample),14,O3,ug/m3
+50,08019043,Barcelona (Eixample),65,H2S,ug/m3
+51,08019044,Barcelona (Gràcia - Sant Gervasi),1,SO2,ug/m3
+52,08019044,Barcelona (Gràcia - Sant Gervasi),6,CO,mg/m3
+53,08019044,Barcelona (Gràcia - Sant Gervasi),7,NO,ug/m3
+54,08019044,Barcelona (Gràcia - Sant Gervasi),8,NO2,ug/m3
+55,08019044,Barcelona (Gràcia - Sant Gervasi),9,PM2.5,ug/m3
+56,08019044,Barcelona (Gràcia - Sant Gervasi),10,PM10,ug/m3
+57,08019044,Barcelona (Gràcia - Sant Gervasi),12,NOX,ug/m3
+58,08019044,Barcelona (Gràcia - Sant Gervasi),14,O3,ug/m3
+59,08019044,Barcelona (Gràcia - Sant Gervasi),65,H2S,ug/m3
+60,08019050,Barcelona (Ciutadella),1,SO2,ug/m3
+61,08019050,Barcelona (Ciutadella),6,CO,mg/m3
+62,08019050,Barcelona (Ciutadella),7,NO,ug/m3
+63,08019050,Barcelona (Ciutadella),8,NO2,ug/m3
+64,08019050,Barcelona (Ciutadella),12,NOX,ug/m3
+65,08019050,Barcelona (Ciutadella),14,O3,ug/m3
+66,08019054,Barcelona (Parc Vall Hebron),1,SO2,ug/m3
+67,08019054,Barcelona (Parc Vall Hebron),6,CO,mg/m3
+68,08019054,Barcelona (Parc Vall Hebron),7,NO,ug/m3
+69,08019054,Barcelona (Parc Vall Hebron),8,NO2,ug/m3
+70,08019054,Barcelona (Parc Vall Hebron),9,PM2.5,ug/m3
+71,08019054,Barcelona (Parc Vall Hebron),10,PM10,ug/m3
+72,08019054,Barcelona (Parc Vall Hebron),12,NOX,ug/m3
+73,08019054,Barcelona (Parc Vall Hebron),14,O3,ug/m3
+74,08019056,Barcelona (Torre Girona),1,SO2,ug/m3
+75,08019056,Barcelona (Torre Girona),6,CO,mg/m3
+76,08019056,Barcelona (Torre Girona),7,NO,ug/m3
+77,08019056,Barcelona (Torre Girona),8,NO2,ug/m3
+78,08019056,Barcelona (Torre Girona),14,O3,ug/m3
+79,08019057,Barcelona (Palau Reial),1,SO2,ug/m3
+80,08019057,Barcelona (Palau Reial),6,CO,mg/m3
+81,08019057,Barcelona (Palau Reial),7,NO,ug/m3
+82,08019057,Barcelona (Palau Reial),8,NO2,ug/m3
+83,08019057,Barcelona (Palau Reial),9,PM2.5,ug/m3
+84,08019057,Barcelona (Palau Reial),10,PM10,ug/m3
+85,08019057,Barcelona (Palau Reial),12,NOX,ug/m3
+86,08019057,Barcelona (Palau Reial),14,O3,ug/m3
+87,08019058,Barcelona (Observatori Fabra),7,NO,ug/m3
+88,08019058,Barcelona (Observatori Fabra),8,NO2,ug/m3
+89,08019058,Barcelona (Observatori Fabra),10,PM10,ug/m3
+90,08019058,Barcelona (Observatori Fabra),12,NOX,ug/m3
+91,08019058,Barcelona (Observatori Fabra),14,O3,ug/m3
+92,08019060,Barcelona (Navas),1,SO2,ug/m3
+93,08019060,Barcelona (Navas),6,CO,mg/m3
+94,08019060,Barcelona (Navas),7,NO,ug/m3
+95,08019060,Barcelona (Navas),8,NO2,ug/m3
+96,08019060,Barcelona (Navas),9,PM2.5,ug/m3
+97,08019060,Barcelona (Navas),10,PM10,ug/m3
+98,08019060,Barcelona (Navas),12,NOX,ug/m3
+99,08019060,Barcelona (Navas),14,O3,ug/m3
+100,08019806,,1,SO2,ug/m3
+101,08019806,,6,CO,mg/m3
+102,08019806,,7,NO,ug/m3
+103,08019806,,8,NO2,ug/m3
+104,08019806,,9,PM2.5,ug/m3
+105,08019806,,10,PM10,ug/m3
+106,08019806,,12,NOX,ug/m3
+107,08019806,,14,O3,ug/m3
+108,08022006,Berga,1,SO2,ug/m3
+109,08022006,Berga,6,CO,mg/m3
+110,08022006,Berga,7,NO,ug/m3
+111,08022006,Berga,8,NO2,ug/m3
+112,08022006,Berga,10,PM10,ug/m3
+113,08022006,Berga,12,NOX,ug/m3
+114,08022006,Berga,14,O3,ug/m3
+115,08058003,Castellet i la Gornal,1,SO2,ug/m3
+116,08058003,Castellet i la Gornal,7,NO,ug/m3
+117,08058003,Castellet i la Gornal,8,NO2,ug/m3
+118,08058003,Castellet i la Gornal,10,PM10,ug/m3
+119,08058003,Castellet i la Gornal,12,NOX,ug/m3
+120,08073001,Cornellà de Llobregat (Allende - Bonveí),1,SO2,ug/m3
+121,08073001,Cornellà de Llobregat (Allende - Bonveí),7,NO,ug/m3
+122,08073001,Cornellà de Llobregat (Allende - Bonveí),8,NO2,ug/m3
+123,08073001,Cornellà de Llobregat (Allende - Bonveí),12,NOX,ug/m3
+124,08074001,Cubelles,1,SO2,ug/m3
+125,08074001,Cubelles,3,PS,ug/m3
+126,08074005,Cubelles (Poliesportiu),1,SO2,ug/m3
+127,08074005,Cubelles (Poliesportiu),7,NO,ug/m3
+128,08074005,Cubelles (Poliesportiu),8,NO2,ug/m3
+129,08074005,Cubelles (Poliesportiu),10,PM10,ug/m3
+130,08074005,Cubelles (Poliesportiu),12,NOX,ug/m3
+131,08074005,Cubelles (Poliesportiu),14,O3,ug/m3
+132,08074006,Cubelles (Poliesportiu),1,SO2,ug/m3
+133,08074006,Cubelles (Poliesportiu),7,NO,ug/m3
+134,08074006,Cubelles (Poliesportiu),8,NO2,ug/m3
+135,08074006,Cubelles (Poliesportiu),9,PM2.5,ug/m3
+136,08074006,Cubelles (Poliesportiu),10,PM10,ug/m3
+137,08074006,Cubelles (Poliesportiu),12,NOX,ug/m3
+138,08074006,Cubelles (Poliesportiu),14,O3,ug/m3
+139,08080001,Fígols (roca del Querol),1,SO2,ug/m3
+140,08080001,Fígols (roca del Querol),7,NO,ug/m3
+141,08080001,Fígols (roca del Querol),10,PM10,ug/m3
+142,08089002,Gavà (pl. Balmes),1,SO2,ug/m3
+143,08089002,Gavà (pl. Balmes),3,PS,ug/m3
+144,08089003,Gavà,1,SO2,ug/m3
+145,08089003,Gavà,7,NO,ug/m3
+146,08089003,Gavà,8,NO2,ug/m3
+147,08089003,Gavà,14,O3,ug/m3
+148,08089004,Gavà (c/Girona - c/Progrés),1,SO2,ug/m3
+149,08089004,Gavà (c/Girona - c/Progrés),3,PS,ug/m3
+150,08089004,Gavà (c/Girona - c/Progrés),7,NO,ug/m3
+151,08089004,Gavà (c/Girona - c/Progrés),8,NO2,ug/m3
+152,08089004,Gavà (c/Girona - c/Progrés),10,PM10,ug/m3
+153,08089004,Gavà (c/Girona - c/Progrés),14,O3,ug/m3
+154,08089004,Gavà (c/Girona - c/Progrés),44,HCNM,ppm
+155,08089005,Gavà,1,SO2,ug/m3
+156,08089005,Gavà,6,CO,mg/m3
+157,08089005,Gavà,7,NO,ug/m3
+158,08089005,Gavà,8,NO2,ug/m3
+159,08089005,Gavà,12,NOX,ug/m3
+160,08089005,Gavà,14,O3,ug/m3
+161,08089005,Gavà,30,C6H6,ug/m3
+162,08096010,Granollers (av. Joan Prim),1,SO2,ug/m3
+163,08096010,Granollers (av. Joan Prim),3,PS,ug/m3
+164,08096010,Granollers (av. Joan Prim),6,CO,mg/m3
+165,08096010,Granollers (av. Joan Prim),7,NO,ug/m3
+166,08096010,Granollers (av. Joan Prim),8,NO2,ug/m3
+167,08096010,Granollers (av. Joan Prim),14,O3,ug/m3
+168,08096010,Granollers (av. Joan Prim),42,HCT,ppm
+169,08096011,Granollers (c/ Joan Vinyoli),1,SO2,ug/m3
+170,08096011,Granollers (c/ Joan Vinyoli),3,PS,ug/m3
+171,08096011,Granollers (c/ Joan Vinyoli),6,CO,mg/m3
+172,08096011,Granollers (c/ Joan Vinyoli),7,NO,ug/m3
+173,08096011,Granollers (c/ Joan Vinyoli),8,NO2,ug/m3
+174,08096011,Granollers (c/ Joan Vinyoli),14,O3,ug/m3
+175,08096011,Granollers (c/ Joan Vinyoli),42,HCT,ppm
+176,08096011,Granollers (c/ Joan Vinyoli),44,HCNM,ppm
+177,08096014,Granollers,1,SO2,ug/m3
+178,08096014,Granollers,6,CO,mg/m3
+179,08096014,Granollers,7,NO,ug/m3
+180,08096014,Granollers,8,NO2,ug/m3
+181,08096014,Granollers,9,PM2.5,ug/m3
+182,08096014,Granollers,10,PM10,ug/m3
+183,08096014,Granollers,12,NOX,ug/m3
+184,08096014,Granollers,14,O3,ug/m3
+185,08101001,L'Hospitalet de Llobregat,1,SO2,ug/m3
+186,08101001,L'Hospitalet de Llobregat,6,CO,mg/m3
+187,08101001,L'Hospitalet de Llobregat,7,NO,ug/m3
+188,08101001,L'Hospitalet de Llobregat,8,NO2,ug/m3
+189,08101001,L'Hospitalet de Llobregat,9,PM2.5,ug/m3
+190,08101001,L'Hospitalet de Llobregat,10,PM10,ug/m3
+191,08101001,L'Hospitalet de Llobregat,12,NOX,ug/m3
+192,08101001,L'Hospitalet de Llobregat,14,O3,ug/m3
+193,08101001,L'Hospitalet de Llobregat,42,HCT,ppm
+194,08101001,L'Hospitalet de Llobregat,44,HCNM,ppm
+195,08102005,Igualada,1,SO2,ug/m3
+196,08102005,Igualada,6,CO,mg/m3
+197,08102005,Igualada,7,NO,ug/m3
+198,08102005,Igualada,8,NO2,ug/m3
+199,08102005,Igualada,9,PM2.5,ug/m3
+200,08102005,Igualada,10,PM10,ug/m3
+201,08102005,Igualada,12,NOX,ug/m3
+202,08102005,Igualada,14,O3,ug/m3
+203,08102005,Igualada,42,HCT,ppm
+204,08102005,Igualada,44,HCNM,ppm
+205,08102005,Igualada,65,H2S,ug/m3
+206,08102007,Igualada,1,SO2,ug/m3
+207,08102007,Igualada,7,NO,ug/m3
+208,08102007,Igualada,8,NO2,ug/m3
+209,08102007,Igualada,9,PM2.5,ug/m3
+210,08102007,Igualada,10,PM10,ug/m3
+211,08102007,Igualada,12,NOX,ug/m3
+212,08102007,Igualada,14,O3,ug/m3
+213,08102007,Igualada,65,H2S,ug/m3
+214,08112003,Manlleu,1,SO2,ug/m3
+215,08112003,Manlleu,6,CO,mg/m3
+216,08112003,Manlleu,7,NO,ug/m3
+217,08112003,Manlleu,8,NO2,ug/m3
+218,08112003,Manlleu,9,PM2.5,ug/m3
+219,08112003,Manlleu,10,PM10,ug/m3
+220,08112003,Manlleu,12,NOX,ug/m3
+221,08112003,Manlleu,14,O3,ug/m3
+222,08113007,Manresa,1,SO2,ug/m3
+223,08113007,Manresa,6,CO,mg/m3
+224,08113007,Manresa,7,NO,ug/m3
+225,08113007,Manresa,8,NO2,ug/m3
+226,08113007,Manresa,9,PM2.5,ug/m3
+227,08113007,Manresa,10,PM10,ug/m3
+228,08113007,Manresa,12,NOX,ug/m3
+229,08113007,Manresa,14,O3,ug/m3
+230,08113007,Manresa,42,HCT,ppm
+231,08113007,Manresa,44,HCNM,ppm
+232,08113007,Manresa,65,H2S,ug/m3
+233,08114006,Martorell,1,SO2,ug/m3
+234,08114006,Martorell,6,CO,mg/m3
+235,08114006,Martorell,7,NO,ug/m3
+236,08114006,Martorell,8,NO2,ug/m3
+237,08114006,Martorell,9,PM2.5,ug/m3
+238,08114006,Martorell,10,PM10,ug/m3
+239,08114006,Martorell,12,NOX,ug/m3
+240,08114006,Martorell,14,O3,ug/m3
+241,08114006,Martorell,42,HCT,ppm
+242,08114006,Martorell,44,HCNM,ppm
+243,08114006,Martorell,65,H2S,ug/m3
+244,08121007,Mataró,1,SO2,ug/m3
+245,08121007,Mataró,3,PS,ug/m3
+246,08121007,Mataró,6,CO,mg/m3
+247,08121007,Mataró,7,NO,ug/m3
+248,08121007,Mataró,8,NO2,ug/m3
+249,08121007,Mataró,14,O3,ug/m3
+250,08121007,Mataró,42,HCT,ppm
+251,08121013,Mataró,1,SO2,ug/m3
+252,08121013,Mataró,6,CO,mg/m3
+253,08121013,Mataró,7,NO,ug/m3
+254,08121013,Mataró,8,NO2,ug/m3
+255,08121013,Mataró,9,PM2.5,ug/m3
+256,08121013,Mataró,10,PM10,ug/m3
+257,08121013,Mataró,12,NOX,ug/m3
+258,08121013,Mataró,14,O3,ug/m3
+259,08124005,Mollet del Vallès,1,SO2,ug/m3
+260,08124005,Mollet del Vallès,6,CO,mg/m3
+261,08124005,Mollet del Vallès,7,NO,ug/m3
+262,08124005,Mollet del Vallès,8,NO2,ug/m3
+263,08124005,Mollet del Vallès,14,O3,ug/m3
+264,08124005,Mollet del Vallès,42,HCT,ppm
+265,08124009,Mollet del Vallès,1,SO2,ug/m3
+266,08124009,Mollet del Vallès,6,CO,mg/m3
+267,08124009,Mollet del Vallès,7,NO,ug/m3
+268,08124009,Mollet del Vallès,8,NO2,ug/m3
+269,08124009,Mollet del Vallès,9,PM2.5,ug/m3
+270,08124009,Mollet del Vallès,10,PM10,ug/m3
+271,08124009,Mollet del Vallès,12,NOX,ug/m3
+272,08124009,Mollet del Vallès,14,O3,ug/m3
+273,08125002,Montcada i Reixac,1,SO2,ug/m3
+274,08125002,Montcada i Reixac,6,CO,mg/m3
+275,08125002,Montcada i Reixac,7,NO,ug/m3
+276,08125002,Montcada i Reixac,8,NO2,ug/m3
+277,08125002,Montcada i Reixac,10,PM10,ug/m3
+278,08125002,Montcada i Reixac,12,NOX,ug/m3
+279,08125002,Montcada i Reixac,14,O3,ug/m3
+280,08125002,Montcada i Reixac,65,H2S,ug/m3
+281,08125013,Montcada i Reixac (Can Sant Joan),10,PM10,ug/m3
+282,08136005,Montornès del Vallès (pl. del Poble),1,SO2,ug/m3
+283,08136005,Montornès del Vallès (pl. del Poble),3,PS,ug/m3
+284,08137001,Montseny (La Castanya),1,SO2,ug/m3
+285,08137001,Montseny (La Castanya),6,CO,mg/m3
+286,08137001,Montseny (La Castanya),7,NO,ug/m3
+287,08137001,Montseny (La Castanya),8,NO2,ug/m3
+288,08137001,Montseny (La Castanya),9,PM2.5,ug/m3
+289,08137001,Montseny (La Castanya),10,PM10,ug/m3
+290,08137001,Montseny (La Castanya),12,NOX,ug/m3
+291,08137001,Montseny (La Castanya),14,O3,ug/m3
+292,08142002,la Nou de Berguedà (Malanyeu),7,NO,ug/m3
+293,08142002,la Nou de Berguedà (Malanyeu),8,NO2,ug/m3
+294,08142002,la Nou de Berguedà (Malanyeu),10,PM10,ug/m3
+295,08157003,Pallejà (Roca de Vilana),1,SO2,ug/m3
+296,08157003,Pallejà (Roca de Vilana),7,NO,ug/m3
+297,08157003,Pallejà (Roca de Vilana),8,NO2,ug/m3
+298,08157003,Pallejà (Roca de Vilana),12,NOX,ug/m3
+299,08169006,el Prat de Llobregat (església),1,SO2,ug/m3
+300,08169006,el Prat de Llobregat (església),7,NO,ug/m3
+301,08169006,el Prat de Llobregat (església),8,NO2,ug/m3
+302,08169006,el Prat de Llobregat (església),53,Cl2,ug/m3
+303,08169006,el Prat de Llobregat (església),58,HCl,ug/m3
+304,08169006,el Prat de Llobregat (església),65,H2S,ug/m3
+305,08169007,el Prat de Llobregat (Sant Cosme),1,SO2,ug/m3
+306,08169007,el Prat de Llobregat (Sant Cosme),6,CO,mg/m3
+307,08169007,el Prat de Llobregat (Sant Cosme),7,NO,ug/m3
+308,08169007,el Prat de Llobregat (Sant Cosme),8,NO2,ug/m3
+309,08169007,el Prat de Llobregat (Sant Cosme),14,O3,ug/m3
+310,08169008,El Prat de Llobregat (Jardins de la Pau),1,SO2,ug/m3
+311,08169008,El Prat de Llobregat (Jardins de la Pau),7,NO,ug/m3
+312,08169008,El Prat de Llobregat (Jardins de la Pau),8,NO2,ug/m3
+313,08169008,El Prat de Llobregat (Jardins de la Pau),12,NOX,ug/m3
+314,08169008,El Prat de Llobregat (Jardins de la Pau),14,O3,ug/m3
+315,08169009,El Prat de Llobregat (Sagnier),1,SO2,ug/m3
+316,08169009,El Prat de Llobregat (Sagnier),6,CO,mg/m3
+317,08169009,El Prat de Llobregat (Sagnier),7,NO,ug/m3
+318,08169009,El Prat de Llobregat (Sagnier),8,NO2,ug/m3
+319,08169009,El Prat de Llobregat (Sagnier),12,NOX,ug/m3
+320,08169009,El Prat de Llobregat (Sagnier),14,O3,ug/m3
+321,08169009,El Prat de Llobregat (Sagnier),30,C6H6,ug/m3
+322,08180003,Ripollet,1,SO2,ug/m3
+323,08180003,Ripollet,3,PS,ug/m3
+324,08184005,Rubí,1,SO2,ug/m3
+325,08184005,Rubí,3,PS,ug/m3
+326,08184005,Rubí,6,CO,mg/m3
+327,08184005,Rubí,7,NO,ug/m3
+328,08184005,Rubí,8,NO2,ug/m3
+329,08184005,Rubí,42,HCT,ppm
+330,08184005,Rubí,44,HCNM,ppm
+331,08184005,Rubí,65,H2S,ug/m3
+332,08184006,Rubí,1,SO2,ug/m3
+333,08184006,Rubí,6,CO,mg/m3
+334,08184006,Rubí,7,NO,ug/m3
+335,08184006,Rubí,8,NO2,ug/m3
+336,08184006,Rubí,10,PM10,ug/m3
+337,08184006,Rubí,12,NOX,ug/m3
+338,08184006,Rubí,14,O3,ug/m3
+339,08184006,Rubí,65,H2S,ug/m3
+340,08187010,Sabadell (pl. Creu de Barberà),1,SO2,ug/m3
+341,08187010,Sabadell (pl. Creu de Barberà),3,PS,ug/m3
+342,08187010,Sabadell (pl. Creu de Barberà),6,CO,mg/m3
+343,08187010,Sabadell (pl. Creu de Barberà),7,NO,ug/m3
+344,08187010,Sabadell (pl. Creu de Barberà),8,NO2,ug/m3
+345,08187010,Sabadell (pl. Creu de Barberà),14,O3,ug/m3
+346,08187010,Sabadell (pl. Creu de Barberà),42,HCT,ppm
+347,08187012,Sabadell,7,NO,ug/m3
+348,08187012,Sabadell,8,NO2,ug/m3
+349,08187012,Sabadell,9,PM2.5,ug/m3
+350,08187012,Sabadell,10,PM10,ug/m3
+351,08187012,Sabadell,12,NOX,ug/m3
+352,08187012,Sabadell,14,O3,ug/m3
+353,08194008,Sant Adrià de Besòs,1,SO2,ug/m3
+354,08194008,Sant Adrià de Besòs,6,CO,mg/m3
+355,08194008,Sant Adrià de Besòs,7,NO,ug/m3
+356,08194008,Sant Adrià de Besòs,8,NO2,ug/m3
+357,08194008,Sant Adrià de Besòs,9,PM2.5,ug/m3
+358,08194008,Sant Adrià de Besòs,10,PM10,ug/m3
+359,08194008,Sant Adrià de Besòs,12,NOX,ug/m3
+360,08194008,Sant Adrià de Besòs,14,O3,ug/m3
+361,08194008,Sant Adrià de Besòs,42,HCT,ppm
+362,08194008,Sant Adrià de Besòs,44,HCNM,ppm
+363,08196001,Sant Andreu de la Barca,1,SO2,ug/m3
+364,08196001,Sant Andreu de la Barca,7,NO,ug/m3
+365,08196001,Sant Andreu de la Barca,8,NO2,ug/m3
+366,08196001,Sant Andreu de la Barca,9,PM2.5,ug/m3
+367,08196001,Sant Andreu de la Barca,10,PM10,ug/m3
+368,08196001,Sant Andreu de la Barca,12,NOX,ug/m3
+369,08196001,Sant Andreu de la Barca,14,O3,ug/m3
+370,08202001,Sant Celoni,1,SO2,ug/m3
+371,08202001,Sant Celoni,7,NO,ug/m3
+372,08202001,Sant Celoni,8,NO2,ug/m3
+373,08202001,Sant Celoni,9,PM2.5,ug/m3
+374,08202001,Sant Celoni,10,PM10,ug/m3
+375,08202001,Sant Celoni,12,NOX,ug/m3
+376,08202001,Sant Celoni,14,O3,ug/m3
+377,08202001,Sant Celoni,42,HCT,ppm
+378,08202001,Sant Celoni,44,HCNM,ppm
+379,08202001,Sant Celoni,65,H2S,ug/m3
+380,08205002,Sant Cugat del Vallès,1,SO2,ug/m3
+381,08205002,Sant Cugat del Vallès,6,CO,mg/m3
+382,08205002,Sant Cugat del Vallès,7,NO,ug/m3
+383,08205002,Sant Cugat del Vallès,8,NO2,ug/m3
+384,08205002,Sant Cugat del Vallès,12,NOX,ug/m3
+385,08205002,Sant Cugat del Vallès,14,O3,ug/m3
+386,08209001,Sant Fost de Campsentelles,1,SO2,ug/m3
+387,08209001,Sant Fost de Campsentelles,3,PS,ug/m3
+388,08209001,Sant Fost de Campsentelles,7,NO,ug/m3
+389,08209001,Sant Fost de Campsentelles,8,NO2,ug/m3
+390,08209001,Sant Fost de Campsentelles,42,HCT,ppm
+391,08209001,Sant Fost de Campsentelles,44,HCNM,ppm
+392,08209001,Sant Fost de Campsentelles,65,H2S,ug/m3
+393,08211004,Sant Feliu de Ll. (CEIP Marti i Pol),1,SO2,ug/m3
+394,08211004,Sant Feliu de Ll. (CEIP Marti i Pol),7,NO,ug/m3
+395,08211004,Sant Feliu de Ll. (CEIP Marti i Pol),8,NO2,ug/m3
+396,08211004,Sant Feliu de Ll. (CEIP Marti i Pol),12,NOX,ug/m3
+397,08221004,Sant Just Desvern (CEIP Montseny),10,PM10,ug/m3
+398,08245005,Sta. Coloma de Gr. (c/ Bruc),1,SO2,ug/m3
+399,08245005,Sta. Coloma de Gr. (c/ Bruc),3,PS,ug/m3
+400,08245005,Sta. Coloma de Gr. (c/ Bruc),6,CO,mg/m3
+401,08245005,Sta. Coloma de Gr. (c/ Bruc),7,NO,ug/m3
+402,08245005,Sta. Coloma de Gr. (c/ Bruc),8,NO2,ug/m3
+403,08245012,Santa Coloma de Gramenet,1,SO2,ug/m3
+404,08245012,Santa Coloma de Gramenet,6,CO,mg/m3
+405,08245012,Santa Coloma de Gramenet,7,NO,ug/m3
+406,08245012,Santa Coloma de Gramenet,8,NO2,ug/m3
+407,08245012,Santa Coloma de Gramenet,12,NOX,ug/m3
+408,08245012,Santa Coloma de Gramenet,14,O3,ug/m3
+409,08245012,Santa Coloma de Gramenet,58,HCl,ug/m3
+410,08251003,Sta. Margarida i els Monjos (La Ràpita),7,NO,ug/m3
+411,08251003,Sta. Margarida i els Monjos (La Ràpita),8,NO2,ug/m3
+412,08251003,Sta. Margarida i els Monjos (La Ràpita),12,NOX,ug/m3
+413,08252006,Barberà del Vallès,1,SO2,ug/m3
+414,08252006,Barberà del Vallès,6,CO,mg/m3
+415,08252006,Barberà del Vallès,7,NO,ug/m3
+416,08252006,Barberà del Vallès,8,NO2,ug/m3
+417,08252006,Barberà del Vallès,12,NOX,ug/m3
+418,08252006,Barberà del Vallès,42,HCT,ppm
+419,08252006,Barberà del Vallès,44,HCNM,ppm
+420,08252006,Barberà del Vallès,65,H2S,ug/m3
+421,08259002,Santa Maria de Palautordera,14,O3,ug/m3
+422,08260009,Sta. Perpètua de Mogoda,1,SO2,ug/m3
+423,08260009,Sta. Perpètua de Mogoda,3,PS,ug/m3
+424,08260009,Sta. Perpètua de Mogoda,7,NO,ug/m3
+425,08260009,Sta. Perpètua de Mogoda,8,NO2,ug/m3
+426,08260009,Sta. Perpètua de Mogoda,14,O3,ug/m3
+427,08260010,Santa Perpètua de Mogoda,1,SO2,ug/m3
+428,08260010,Santa Perpètua de Mogoda,7,NO,ug/m3
+429,08260010,Santa Perpètua de Mogoda,8,NO2,ug/m3
+430,08260010,Santa Perpètua de Mogoda,9,PM2.5,ug/m3
+431,08260010,Santa Perpètua de Mogoda,10,PM10,ug/m3
+432,08260010,Santa Perpètua de Mogoda,12,NOX,ug/m3
+433,08260010,Santa Perpètua de Mogoda,14,O3,ug/m3
+434,08263001,Sant Vicenç dels Horts (Ribot),1,SO2,ug/m3
+435,08263001,Sant Vicenç dels Horts (Ribot),7,NO,ug/m3
+436,08263001,Sant Vicenç dels Horts (Ribot),8,NO2,ug/m3
+437,08263001,Sant Vicenç dels Horts (Ribot),10,PM10,ug/m3
+438,08263001,Sant Vicenç dels Horts (Ribot),12,NOX,ug/m3
+439,08263001,Sant Vicenç dels Horts (Ribot),14,O3,ug/m3
+440,08263007,Sant Vicenç dels Horts,1,SO2,ug/m3
+441,08263007,Sant Vicenç dels Horts,7,NO,ug/m3
+442,08263007,Sant Vicenç dels Horts,8,NO2,ug/m3
+443,08263007,Sant Vicenç dels Horts,12,NOX,ug/m3
+444,08268003,Cercs (St. Corneli),1,SO2,ug/m3
+445,08268003,Cercs (St. Corneli),7,NO,ug/m3
+446,08268003,Cercs (St. Corneli),8,NO2,ug/m3
+447,08268004,Cercs (St. Jordi),1,SO2,ug/m3
+448,08268004,Cercs (St. Jordi),7,NO,ug/m3
+449,08268004,Cercs (St. Jordi),8,NO2,ug/m3
+450,08268005,Cercs (Sant Corneli),1,SO2,ug/m3
+451,08268005,Cercs (Sant Corneli),7,NO,ug/m3
+452,08268005,Cercs (Sant Corneli),8,NO2,ug/m3
+453,08268005,Cercs (Sant Corneli),10,PM10,ug/m3
+454,08268006,Cercs (Sant Jordi),1,SO2,ug/m3
+455,08268006,Cercs (Sant Jordi),7,NO,ug/m3
+456,08268006,Cercs (Sant Jordi),8,NO2,ug/m3
+457,08268006,Cercs (Sant Jordi),10,PM10,ug/m3
+458,08270005,Sitges (Vallcarca),1,SO2,ug/m3
+459,08270005,Sitges (Vallcarca),7,NO,ug/m3
+460,08270005,Sitges (Vallcarca),8,NO2,ug/m3
+461,08270005,Sitges (Vallcarca),12,NOX,ug/m3
+462,08270006,Sitges (Vallcarca - Oficines),7,NO,ug/m3
+463,08270006,Sitges (Vallcarca - Oficines),8,NO2,ug/m3
+464,08270006,Sitges (Vallcarca - Oficines),12,NOX,ug/m3
+465,08279011,Terrassa,1,SO2,ug/m3
+466,08279011,Terrassa,6,CO,mg/m3
+467,08279011,Terrassa,7,NO,ug/m3
+468,08279011,Terrassa,8,NO2,ug/m3
+469,08279011,Terrassa,9,PM2.5,ug/m3
+470,08279011,Terrassa,10,PM10,ug/m3
+471,08279011,Terrassa,12,NOX,ug/m3
+472,08279011,Terrassa,14,O3,ug/m3
+473,08279011,Terrassa,42,HCT,ppm
+474,08283002,Tona,7,NO,ug/m3
+475,08283002,Tona,8,NO2,ug/m3
+476,08283002,Tona,14,O3,ug/m3
+477,08283004,Tona (Zona Esportiva),7,NO,ug/m3
+478,08283004,Tona (Zona Esportiva),8,NO2,ug/m3
+479,08283004,Tona (Zona Esportiva),9,PM2.5,ug/m3
+480,08283004,Tona (Zona Esportiva),10,PM10,ug/m3
+481,08283004,Tona (Zona Esportiva),12,NOX,ug/m3
+482,08283004,Tona (Zona Esportiva),14,O3,ug/m3
+483,08293002,Vallcebre,1,SO2,ug/m3
+484,08293002,Vallcebre,7,NO,ug/m3
+485,08293002,Vallcebre,8,NO2,ug/m3
+486,08293003,Vallcebre (campanar),1,SO2,ug/m3
+487,08293003,Vallcebre (campanar),8,NO2,ug/m3
+488,08293003,Vallcebre (campanar),10,PM10,ug/m3
+489,08297001,Veciana (estació agroalimentària),14,O3,ug/m3
+490,08298007,Vic,1,SO2,ug/m3
+491,08298007,Vic,3,PS,ug/m3
+492,08298007,Vic,6,CO,mg/m3
+493,08298007,Vic,7,NO,ug/m3
+494,08298007,Vic,8,NO2,ug/m3
+495,08298007,Vic,14,O3,ug/m3
+496,08298007,Vic,42,HCT,ppm
+497,08298008,Vic,7,NO,ug/m3
+498,08298008,Vic,8,NO2,ug/m3
+499,08298008,Vic,10,PM10,ug/m3
+500,08298008,Vic,12,NOX,ug/m3
+501,08298008,Vic,14,O3,ug/m3
+502,08301002,Viladecans,1,SO2,ug/m3
+503,08301002,Viladecans,3,PS,ug/m3
+504,08301002,Viladecans,14,O3,ug/m3
+505,08301004,Viladecans - Atrium,1,SO2,ug/m3
+506,08301004,Viladecans - Atrium,6,CO,mg/m3
+507,08301004,Viladecans - Atrium,7,NO,ug/m3
+508,08301004,Viladecans - Atrium,8,NO2,ug/m3
+509,08301004,Viladecans - Atrium,12,NOX,ug/m3
+510,08301004,Viladecans - Atrium,14,O3,ug/m3
+511,08301004,Viladecans - Atrium,30,C6H6,ug/m3
+512,08305005,Vilafranca del Penedès,1,SO2,ug/m3
+513,08305005,Vilafranca del Penedès,3,PS,ug/m3
+514,08305005,Vilafranca del Penedès,7,NO,ug/m3
+515,08305005,Vilafranca del Penedès,8,NO2,ug/m3
+516,08305005,Vilafranca del Penedès,14,O3,ug/m3
+517,08305006,Vilafranca del Penedès,1,SO2,ug/m3
+518,08305006,Vilafranca del Penedès,7,NO,ug/m3
+519,08305006,Vilafranca del Penedès,8,NO2,ug/m3
+520,08305006,Vilafranca del Penedès,9,PM2.5,ug/m3
+521,08305006,Vilafranca del Penedès,10,PM10,ug/m3
+522,08305006,Vilafranca del Penedès,12,NOX,ug/m3
+523,08305006,Vilafranca del Penedès,14,O3,ug/m3
+524,08307012,Vilanova i la Geltrú,1,SO2,ug/m3
+525,08307012,Vilanova i la Geltrú,6,CO,mg/m3
+526,08307012,Vilanova i la Geltrú,7,NO,ug/m3
+527,08307012,Vilanova i la Geltrú,8,NO2,ug/m3
+528,08307012,Vilanova i la Geltrú,9,PM2.5,ug/m3
+529,08307012,Vilanova i la Geltrú,10,PM10,ug/m3
+530,08307012,Vilanova i la Geltrú,12,NOX,ug/m3
+531,08307012,Vilanova i la Geltrú,14,O3,ug/m3
+532,17001002,Agullana,14,O3,ug/m3
+533,17013001,Begur,7,NO,ug/m3
+534,17013001,Begur,8,NO2,ug/m3
+535,17013001,Begur,9,PM2.5,ug/m3
+536,17013001,Begur,10,PM10,ug/m3
+537,17013001,Begur,12,NOX,ug/m3
+538,17013001,Begur,14,O3,ug/m3
+539,17073001,Fornells de la Selva (escola municipal),1,SO2,ug/m3
+540,17073001,Fornells de la Selva (escola municipal),3,PS,ug/m3
+541,17073001,Fornells de la Selva (escola municipal),6,CO,mg/m3
+542,17073001,Fornells de la Selva (escola municipal),7,NO,ug/m3
+543,17073001,Fornells de la Selva (escola municipal),8,NO2,ug/m3
+544,17073001,Fornells de la Selva (escola municipal),65,H2S,ug/m3
+545,17079001,Girona (parc de la Devesa),1,SO2,ug/m3
+546,17079001,Girona (parc de la Devesa),3,PS,ug/m3
+547,17079001,Girona (parc de la Devesa),6,CO,mg/m3
+548,17079001,Girona (parc de la Devesa),7,NO,ug/m3
+549,17079001,Girona (parc de la Devesa),8,NO2,ug/m3
+550,17079001,Girona (parc de la Devesa),42,HCT,ppm
+551,17079003,Girona (Escola de Música),1,SO2,ug/m3
+552,17079003,Girona (Escola de Música),6,CO,mg/m3
+553,17079003,Girona (Escola de Música),7,NO,ug/m3
+554,17079003,Girona (Escola de Música),8,NO2,ug/m3
+555,17079003,Girona (Escola de Música),9,PM2.5,ug/m3
+556,17079003,Girona (Escola de Música),10,PM10,ug/m3
+557,17079003,Girona (Escola de Música),12,NOX,ug/m3
+558,17125001,Pardines,14,O3,ug/m3
+559,17184001,Santa Pau,7,NO,ug/m3
+560,17184001,Santa Pau,8,NO2,ug/m3
+561,17184001,Santa Pau,12,NOX,ug/m3
+562,17184001,Santa Pau,14,O3,ug/m3
+563,17186001,Sarrià de Ter,1,SO2,ug/m3
+564,17186001,Sarrià de Ter,3,PS,ug/m3
+565,17186001,Sarrià de Ter,6,CO,mg/m3
+566,17186001,Sarrià de Ter,7,NO,ug/m3
+567,17186001,Sarrià de Ter,8,NO2,ug/m3
+568,17186001,Sarrià de Ter,14,O3,ug/m3
+569,17186001,Sarrià de Ter,42,HCT,ppm
+570,17186001,Sarrià de Ter,44,HCNM,ppm
+571,17186001,Sarrià de Ter,65,H2S,ug/m3
+572,25051001,Bellver de Cerdanya,1,SO2,ug/m3
+573,25051001,Bellver de Cerdanya,7,NO,ug/m3
+574,25051001,Bellver de Cerdanya,8,NO2,ug/m3
+575,25051001,Bellver de Cerdanya,10,PM10,ug/m3
+576,25051001,Bellver de Cerdanya,12,NOX,ug/m3
+577,25051001,Bellver de Cerdanya,14,O3,ug/m3
+578,25051002,Bellver de Cerdanya (el Talló),7,NO,ug/m3
+579,25051002,Bellver de Cerdanya (el Talló),8,NO2,ug/m3
+580,25051002,Bellver de Cerdanya (el Talló),9,PM2.5,ug/m3
+581,25051002,Bellver de Cerdanya (el Talló),10,PM10,ug/m3
+582,25051002,Bellver de Cerdanya (el Talló),12,NOX,ug/m3
+583,25051002,Bellver de Cerdanya (el Talló),14,O3,ug/m3
+584,25119001,Juneda (ctra. de Lleida km 75),14,O3,ug/m3
+585,25119002,Juneda (Pla del Molí),7,NO,ug/m3
+586,25119002,Juneda (Pla del Molí),8,NO2,ug/m3
+587,25119002,Juneda (Pla del Molí),9,PM2.5,ug/m3
+588,25119002,Juneda (Pla del Molí),10,PM10,ug/m3
+589,25119002,Juneda (Pla del Molí),12,NOX,ug/m3
+590,25119002,Juneda (Pla del Molí),14,O3,ug/m3
+591,25120001,Lleida,1,SO2,ug/m3
+592,25120001,Lleida,6,CO,mg/m3
+593,25120001,Lleida,7,NO,ug/m3
+594,25120001,Lleida,8,NO2,ug/m3
+595,25120001,Lleida,9,PM2.5,ug/m3
+596,25120001,Lleida,10,PM10,ug/m3
+597,25120001,Lleida,12,NOX,ug/m3
+598,25120001,Lleida,14,O3,ug/m3
+599,25120001,Lleida,42,HCT,ppm
+600,25120001,Lleida,44,HCNM,ppm
+601,25120001,Lleida,65,H2S,ug/m3
+602,25172001,Ponts,9,PM2.5,ug/m3
+603,25172001,Ponts,10,PM10,ug/m3
+604,25172001,Ponts,14,O3,ug/m3
+605,25196001,Montsec,1,SO2,ug/m3
+606,25196001,Montsec,6,CO,mg/m3
+607,25196001,Montsec,7,NO,ug/m3
+608,25196001,Montsec,8,NO2,ug/m3
+609,25196001,Montsec,9,PM2.5,ug/m3
+610,25196001,Montsec,10,PM10,ug/m3
+611,25196001,Montsec,12,NOX,ug/m3
+612,25196001,Montsec,14,O3,ug/m3
+613,25209001,Sort,9,PM2.5,ug/m3
+614,25209001,Sort,10,PM10,ug/m3
+615,25209001,Sort,14,O3,ug/m3
+616,43004005,Alcanar,7,NO,ug/m3
+617,43004005,Alcanar,8,NO2,ug/m3
+618,43004005,Alcanar,12,NOX,ug/m3
+619,43005001,Alcover,14,O3,ug/m3
+620,43005002,Alcover,1,SO2,ug/m3
+621,43005002,Alcover,6,CO,mg/m3
+622,43005002,Alcover,7,NO,ug/m3
+623,43005002,Alcover,8,NO2,ug/m3
+624,43005002,Alcover,12,NOX,ug/m3
+625,43005002,Alcover,14,O3,ug/m3
+626,43005002,Alcover,65,H2S,ug/m3
+627,43013002,L'Ametlla de Mar,1,SO2,ug/m3
+628,43013002,L'Ametlla de Mar,6,CO,mg/m3
+629,43013002,L'Ametlla de Mar,7,NO,ug/m3
+630,43013002,L'Ametlla de Mar,8,NO2,ug/m3
+631,43013002,L'Ametlla de Mar,12,NOX,ug/m3
+632,43013002,L'Ametlla de Mar,14,O3,ug/m3
+633,43014001,Amposta,7,NO,ug/m3
+634,43014001,Amposta,8,NO2,ug/m3
+635,43014001,Amposta,10,PM10,ug/m3
+636,43014001,Amposta,12,NOX,ug/m3
+637,43014001,Amposta,14,O3,ug/m3
+638,43014002,Amposta(Cementiri),7,NO,ug/m3
+639,43014002,Amposta(Cementiri),8,NO2,ug/m3
+640,43014002,Amposta(Cementiri),10,PM10,ug/m3
+641,43014002,Amposta(Cementiri),12,NOX,ug/m3
+642,43014002,Amposta(Cementiri),14,O3,ug/m3
+643,43044002,la Sénia,14,O3,ug/m3
+644,43044003,La Sénia,14,O3,ug/m3
+645,43047001,Constantí,1,SO2,ug/m3
+646,43047001,Constantí,6,CO,mg/m3
+647,43047001,Constantí,7,NO,ug/m3
+648,43047001,Constantí,8,NO2,ug/m3
+649,43047001,Constantí,12,NOX,ug/m3
+650,43047001,Constantí,14,O3,ug/m3
+651,43047001,Constantí,30,C6H6,ug/m3
+652,43047001,Constantí,42,HCT,ppm
+653,43047001,Constantí,44,HCNM,ppm
+654,43047001,Constantí,58,HCl,ug/m3
+655,43047001,Constantí,65,H2S,ug/m3
+656,43060003,Flix,53,Cl2,ug/m3
+657,43060003,Flix,331,Hg,ng/m3
+658,43064001,Gandesa,1,SO2,ug/m3
+659,43064001,Gandesa,9,PM2.5,ug/m3
+660,43064001,Gandesa,10,PM10,ug/m3
+661,43064001,Gandesa,14,O3,ug/m3
+662,43070001,Els Guiamets,14,O3,ug/m3
+663,43103001,Perafort (Puigdelfí),1,SO2,ug/m3
+664,43103001,Perafort (Puigdelfí),7,NO,ug/m3
+665,43103001,Perafort (Puigdelfí),8,NO2,ug/m3
+666,43103001,Perafort (Puigdelfí),9,PM2.5,ug/m3
+667,43103001,Perafort (Puigdelfí),10,PM10,ug/m3
+668,43103001,Perafort (Puigdelfí),12,NOX,ug/m3
+669,43103001,Perafort (Puigdelfí),14,O3,ug/m3
+670,43103001,Perafort (Puigdelfí),30,C6H6,ug/m3
+671,43103001,Perafort (Puigdelfí),42,HCT,ppm
+672,43103001,Perafort (Puigdelfí),44,HCNM,ppm
+673,43103001,Perafort (Puigdelfí),65,H2S,ug/m3
+674,43109001,la Pobla de M./el Morell,1,SO2,ug/m3
+675,43109001,la Pobla de M./el Morell,3,PS,ug/m3
+676,43109001,la Pobla de M./el Morell,6,CO,mg/m3
+677,43109001,la Pobla de M./el Morell,7,NO,ug/m3
+678,43109001,la Pobla de M./el Morell,8,NO2,ug/m3
+679,43109001,la Pobla de M./el Morell,42,HCT,ppm
+680,43109001,la Pobla de M./el Morell,44,HCNM,ppm
+681,43109001,la Pobla de M./el Morell,65,H2S,ug/m3
+682,43123005,Reus,1,SO2,ug/m3
+683,43123005,Reus,6,CO,mg/m3
+684,43123005,Reus,7,NO,ug/m3
+685,43123005,Reus,8,NO2,ug/m3
+686,43123005,Reus,9,PM2.5,ug/m3
+687,43123005,Reus,10,PM10,ug/m3
+688,43123005,Reus,12,NOX,ug/m3
+689,43123005,Reus,14,O3,ug/m3
+690,43123005,Reus,42,HCT,ppm
+691,43123005,Reus,44,HCNM,ppm
+692,43123005,Reus,65,H2S,ug/m3
+693,43148001,Tarragona (Sant Salvador),1,SO2,ug/m3
+694,43148001,Tarragona (Sant Salvador),6,CO,mg/m3
+695,43148001,Tarragona (Sant Salvador),7,NO,ug/m3
+696,43148001,Tarragona (Sant Salvador),8,NO2,ug/m3
+697,43148001,Tarragona (Sant Salvador),12,NOX,ug/m3
+698,43148001,Tarragona (Sant Salvador),42,HCT,ppm
+699,43148001,Tarragona (Sant Salvador),44,HCNM,ppm
+700,43148001,Tarragona (Sant Salvador),65,H2S,ug/m3
+701,43148002,Tarragona (pl. Generalitat),1,SO2,ug/m3
+702,43148002,Tarragona (pl. Generalitat),3,PS,ug/m3
+703,43148002,Tarragona (pl. Generalitat),6,CO,mg/m3
+704,43148002,Tarragona (pl. Generalitat),7,NO,ug/m3
+705,43148002,Tarragona (pl. Generalitat),8,NO2,ug/m3
+706,43148002,Tarragona (pl. Generalitat),14,O3,ug/m3
+707,43148002,Tarragona (pl. Generalitat),42,HCT,ppm
+708,43148002,Tarragona (pl. Generalitat),44,HCNM,ppm
+709,43148002,Tarragona (pl. Generalitat),65,H2S,ug/m3
+710,43148003,Tarragona (Bonavista),1,SO2,ug/m3
+711,43148003,Tarragona (Bonavista),6,CO,mg/m3
+712,43148003,Tarragona (Bonavista),7,NO,ug/m3
+713,43148003,Tarragona (Bonavista),8,NO2,ug/m3
+714,43148003,Tarragona (Bonavista),9,PM2.5,ug/m3
+715,43148003,Tarragona (Bonavista),10,PM10,ug/m3
+716,43148003,Tarragona (Bonavista),11,PM1,ug/m3
+717,43148003,Tarragona (Bonavista),12,NOX,ug/m3
+718,43148003,Tarragona (Bonavista),42,HCT,ppm
+719,43148003,Tarragona (Bonavista),44,HCNM,ppm
+720,43148003,Tarragona (Bonavista),65,H2S,ug/m3
+721,43148022,Tarragona (Universitat Laboral),1,SO2,ug/m3
+722,43148022,Tarragona (Universitat Laboral),6,CO,mg/m3
+723,43148022,Tarragona (Universitat Laboral),7,NO,ug/m3
+724,43148022,Tarragona (Universitat Laboral),8,NO2,ug/m3
+725,43148022,Tarragona (Universitat Laboral),12,NOX,ug/m3
+726,43148022,Tarragona (Universitat Laboral),14,O3,ug/m3
+727,43148022,Tarragona (Universitat Laboral),42,HCT,ppm
+728,43148022,Tarragona (Universitat Laboral),44,HCNM,ppm
+729,43148022,Tarragona (Universitat Laboral),65,H2S,ug/m3
+730,43148028,Tarragona (Parc de la Ciutat),1,SO2,ug/m3
+731,43148028,Tarragona (Parc de la Ciutat),6,CO,mg/m3
+732,43148028,Tarragona (Parc de la Ciutat),7,NO,ug/m3
+733,43148028,Tarragona (Parc de la Ciutat),8,NO2,ug/m3
+734,43148028,Tarragona (Parc de la Ciutat),12,NOX,ug/m3
+735,43148028,Tarragona (Parc de la Ciutat),14,O3,ug/m3
+736,43148028,Tarragona (Parc de la Ciutat),65,H2S,ug/m3
+737,43162001,Vandellòs (Els Dedalts),1,SO2,ug/m3
+738,43162001,Vandellòs (Els Dedalts),6,CO,mg/m3
+739,43162001,Vandellòs (Els Dedalts),7,NO,ug/m3
+740,43162001,Vandellòs (Els Dedalts),8,NO2,ug/m3
+741,43162001,Vandellòs (Els Dedalts),10,PM10,ug/m3
+742,43162001,Vandellòs (Els Dedalts),12,NOX,ug/m3
+743,43162001,Vandellòs (Els Dedalts),14,O3,ug/m3
+744,43162001,Vandellòs (Els Dedalts),53,Cl2,ug/m3
+745,43162002,Vandellòs (Viver),1,SO2,ug/m3
+746,43162002,Vandellòs (Viver),7,NO,ug/m3
+747,43162002,Vandellòs (Viver),8,NO2,ug/m3
+748,43162002,Vandellòs (Viver),12,NOX,ug/m3
+749,43162005,Vandellòs (Barranc del Terme),1,SO2,ug/m3
+750,43162005,Vandellòs (Barranc del Terme),7,NO,ug/m3
+751,43162005,Vandellòs (Barranc del Terme),8,NO2,ug/m3
+752,43162005,Vandellòs (Barranc del Terme),10,PM10,ug/m3
+753,43162005,Vandellòs (Barranc del Terme),12,NOX,ug/m3
+754,43171001,Vila-seca,1,SO2,ug/m3
+755,43171001,Vila-seca,7,NO,ug/m3
+756,43171001,Vila-seca,8,NO2,ug/m3
+757,43171001,Vila-seca,9,PM2.5,ug/m3
+758,43171001,Vila-seca,10,PM10,ug/m3
+759,43171001,Vila-seca,11,PM1,ug/m3
+760,43171001,Vila-seca,12,NOX,ug/m3
+761,43171001,Vila-seca,14,O3,ug/m3
+762,43171001,Vila-seca,42,HCT,ppm
+763,43171001,Vila-seca,44,HCNM,ppm
+764,43171001,Vila-seca,65,H2S,ug/m3
+765,43171002,Vila-seca (IES Vila-seca),1,SO2,ug/m3
+766,43171002,Vila-seca (IES Vila-seca),7,NO,ug/m3
+767,43171002,Vila-seca (IES Vila-seca),8,NO2,ug/m3
+768,43171002,Vila-seca (IES Vila-seca),9,PM2.5,ug/m3
+769,43171002,Vila-seca (IES Vila-seca),10,PM10,ug/m3
+770,43171002,Vila-seca (IES Vila-seca),11,PM1,ug/m3
+771,43171002,Vila-seca (IES Vila-seca),12,NOX,ug/m3
+772,43171002,Vila-seca (IES Vila-seca),14,O3,ug/m3
+773,43171002,Vila-seca (IES Vila-seca),65,H2S,ug/m3
