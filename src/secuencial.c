@@ -3,6 +3,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * Versió seqüencial. Ús: ./secuencial <catalogo> <dataset>
+ * Carrega el catàleg, recorre el fitxer de mesures una sola vegada i
+ * imprimeix la taula de resultats per stdout. Els errors s'informen per
+ * stderr i el programa acaba amb EXIT_FAILURE, alliberant abans els recursos.
+ */
 int main(int argc, char **argv) {
   if (argc != 3) { // Valida exactament 2 arguments (catàleg i mesures)
     fprintf(stderr, "Ús: %s <catalogo> <dataset>\n", argv[0]);
