@@ -32,3 +32,19 @@ int is_valid_date(const char *date) {
 
   return 1;
 }
+
+int line_too_long(FILE *f, const char *line, size_t size) {
+  size_t len = strlen(line);
+  if (len < size - 1 || line[len - 1] == '\n') return 0; // Hi cap sencera (amb el '\n')
+
+  int c = fgetc(f); // Buffer ple sense '\n': mira si el fitxer s'acaba aquí
+  if (c == EOF) return 0; // Última línia de 511 bytes sense salt de línia: vàlida
+  ungetc(c, f);
+  return 1;
+}
+
+int is_plain_number(const char *s) {
+  if (s[0] == '-') s++;                        // Signe negatiu opcional
+  if (!isdigit((unsigned char)s[0])) return 0; // Ha de començar per dígit
+  return strpbrk(s, "xX") == NULL;             // Rebutja hexadecimal ("0x1A")
+}

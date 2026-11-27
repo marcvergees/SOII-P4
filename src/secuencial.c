@@ -10,22 +10,35 @@ int main(int argc, char **argv) {
   }
 
   FILE *catalogo = fopen(argv[1], "r"); // Obre fitxer de catàleg
-  FILE *dataset = fopen(argv[2], "r");  // Obre fitxer de mesures
-  if (!catalogo || !dataset) {          // Comprova errors en obrir els fitxers
-    perror("Error obrint el fitxer");
+  if (!catalogo) {
+    fprintf(stderr, "Error obrint el catàleg '%s': ", argv[1]);
+    perror(NULL);
     exit(EXIT_FAILURE);
   }
 
   int total_registres = 0;
   Register *registres = read_catalogo(catalogo, &total_registres); // Llegeix el catàleg d'estacions
+  fclose(catalogo); // El catàleg ja no es necessita: es tanca tant si hi ha error com si no
+  if (!registres) {
+    exit(EXIT_FAILURE);
+  }
 
-  read_measures(dataset, registres, total_registres); // Processa les mesures i extreu extrems
+  FILE *dataset = fopen(argv[2], "r"); // Obre fitxer de mesures
+  if (!dataset) {
+    fprintf(stderr, "Error obrint el fitxer de mesures '%s': ", argv[2]);
+    perror(NULL);
+    free_registers(registres);
+    exit(EXIT_FAILURE);
+  }
 
-  print_results(registres, total_registres); // Imprimeix el resum TSV per stdout
+  // Processa les mesures i extreu extrems
+  int status = read_measures(dataset, registres, total_registres);
+  fclose(dataset); // Tanca fitxer de mesures
 
-  free_registers(registres, total_registres); // Allibera la memòria dinàmica utilitzada
+  if (status == 0) {
+    print_results(registres, total_registres); // Imprimeix el resum TSV per stdout (només si no hi ha error)
+  }
 
-  fclose(catalogo); // Tanca fitxer de catàleg
-  fclose(dataset);  // Tanca fitxer de mesures
-  return 0;
+  free_registers(registres); // Allibera la memòria dinàmica utilitzada
+  return status == 0 ? EXIT_SUCCESS : EXIT_FAILURE;
 }

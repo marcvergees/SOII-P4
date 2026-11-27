@@ -9,11 +9,11 @@ void Register_init(Register *p) {
   p->codi_eoi[0] = '\0';
   p->magnitud = 0;
   p->unidad[0] = '\0';
-  p->min = 0.0f;
-  p->max = 0.0f;
-  p->fecha_min = NULL;
+  p->min = 0.0;
+  p->max = 0.0;
+  p->fecha_min[0] = '\0';
   p->hora_min = 0;
-  p->fecha_max = NULL;
+  p->fecha_max[0] = '\0';
   p->hora_max = 0;
   p->presents = 0;
   p->ausents = 0;
@@ -24,14 +24,11 @@ Register *read_catalogo(FILE *catalogo, int *total_registres) {
 
   if (fgets(line, sizeof(line), catalogo) == NULL) { // Descarta capçalera o detecta fitxer buit
     fprintf(stderr, "Error a la línia 1: fitxer de catàleg buit\n");
-    fclose(catalogo);
-    exit(EXIT_FAILURE);
+    return NULL;
   }
-  size_t hlen = strlen(line);
-  if (hlen == sizeof(line) - 1 && line[hlen - 1] != '\n') { // Valida límit de 511 bytes a la capçalera
+  if (line_too_long(catalogo, line, sizeof(line))) { // Valida límit de 511 bytes a la capçalera
     fprintf(stderr, "Error a la línia 1: línia massa llarga (supera 511 bytes)\n");
-    fclose(catalogo);
-    exit(EXIT_FAILURE);
+    return NULL;
   }
 
   int capacity = 128; // Capacitat inicial del vector dinàmic
@@ -39,18 +36,16 @@ Register *read_catalogo(FILE *catalogo, int *total_registres) {
   Register *registres = malloc(capacity * sizeof(Register)); // Reserva memòria per als registres
   if (!registres) {
     perror("Error assignant memòria per al catàleg");
-    exit(EXIT_FAILURE);
+    return NULL;
   }
 
   int num_linea = 1; // Comptador de línies (la capçalera és la línia 1)
   while (fgets(line, sizeof(line), catalogo) != NULL) {
     num_linea++;
-    size_t len = strlen(line);
-    if (len == sizeof(line) - 1 && line[len - 1] != '\n') { // Comprova que la línia no superi 511 bytes
+    if (line_too_long(catalogo, line, sizeof(line))) { // Comprova que la línia no superi 511 bytes
       fprintf(stderr, "Error a la línia %d: línia massa llarga (supera 511 bytes)\n", num_linea);
-      free_registers(registres, num_registres);
-      fclose(catalogo);
-      exit(EXIT_FAILURE);
+      free_registers(registres);
+      return NULL;
     }
     line[strcspn(line, "\r\n")] = '\0'; // Trunca caràcters de final de línia
 
@@ -58,9 +53,9 @@ Register *read_catalogo(FILE *catalogo, int *total_registres) {
       capacity *= 2;
       Register *tmp = realloc(registres, capacity * sizeof(Register));
       if (!tmp) {
-        free_registers(registres, num_registres);
         perror("Error reassignant memòria per al catàleg");
-        exit(EXIT_FAILURE);
+        free_registers(registres);
+        return NULL;
       }
       registres = tmp;
     }
@@ -78,11 +73,19 @@ Register *read_catalogo(FILE *catalogo, int *total_registres) {
         if (count == 0) { // Camp 0: ID
           char *endptr;
           long id_val = strtol(start, &endptr, 10); // Conversió estricta a enter
-          if (endptr == start || *endptr != '\0' || id_val < 0) {
+          if (!is_plain_number(start) || endptr == start || *endptr != '\0' || id_val < 0) {
             fprintf(stderr, "Error a la línia %d: ID invàlid al catàleg '%s'\n", num_linea, start);
-            free_registers(registres, num_registres);
-            fclose(catalogo);
-            exit(EXIT_FAILURE);
+            free_registers(registres);
+            return NULL;
+          }
+          // Els IDs han de ser únics i consecutius des de 0: la fila i-èsima ha de tenir ID i.
+          // Això garanteix que registres[id] és el registre amb aquell ID.
+          if (id_val != num_registres) {
+            fprintf(stderr,
+                    "Error a la línia %d: ID %ld no consecutiu o duplicat al catàleg (s'esperava %d)\n",
+                    num_linea, id_val, num_registres);
+            free_registers(registres);
+            return NULL;
           }
           reg->id = (int)id_val;
         } else if (count == 1) { // Camp 1: CODI_EOI
@@ -93,9 +96,8 @@ Register *read_catalogo(FILE *catalogo, int *total_registres) {
           long mag_val = strtol(start, &endptr, 10); // Conversió estricta de la magnitud
           if (endptr == start || *endptr != '\0') {
             fprintf(stderr, "Error a la línia %d: magnitud invàlida al catàleg '%s'\n", num_linea, start);
-            free_registers(registres, num_registres);
-            fclose(catalogo);
-            exit(EXIT_FAILURE);
+            free_registers(registres);
+            return NULL;
           }
           reg->magnitud = (int)mag_val;
         }
@@ -113,9 +115,8 @@ Register *read_catalogo(FILE *catalogo, int *total_registres) {
     if (count != LIMIT_LINE_CATALOGO) { // Valida que la fila tingui exactament 6 camps
       fprintf(stderr, "Error a la línia %d: s'esperaven %d camps, trobats %d\n",
               num_linea, LIMIT_LINE_CATALOGO, count);
-      free_registers(registres, num_registres);
-      fclose(catalogo);
-      exit(EXIT_FAILURE);
+      free_registers(registres);
+      return NULL;
     }
 
     num_registres++;
@@ -148,12 +149,6 @@ void print_results(const Register *registres, int total_registres) {
   }
 }
 
-void free_registers(Register *registres, int total_registres) {
-  if (!registres)
-    return;
-  for (int i = 0; i < total_registres; i++) {
-    if (registres[i].fecha_min) free(registres[i].fecha_min); // Allibera cadena de data mínima
-    if (registres[i].fecha_max) free(registres[i].fecha_max); // Allibera cadena de data màxima
-  }
-  free(registres); // Allibera array de registres
+void free_registers(Register *registres) {
+  free(registres); // Les dates són dins l'estructura: només cal alliberar el vector
 }

@@ -18,7 +18,7 @@ El codi està dissenyat de manera modular dividit en capçaleres (`.h`) i fitxer
 
 ### 2. Instruccions de Compilació
 
-El projecte disposa d'un `Makefile` que compleix tots els criteris establerts a l'enunciat:
+El projecte disposa d'un `Makefile`:
 
 ```bash
 # Compilació estàndard optimitzada (-Wall -Wextra -O2 -std=gnu11)
@@ -58,7 +58,21 @@ El binari rep dos paràmetres obligatoris: el fitxer del catàleg i el fitxer de
 
 ---
 
-### 4. Format de Sortida
+### 4. Proves
+
+El directori `tests/` conté fitxers mínims amb un catàleg reduït (`catalogo_mini.csv`) i un catàleg només amb capçalera (`catalogo_vacio.csv`, K = 0):
+
+* **`validos/`**: casos correctes (una mesura, zeros, negatius, empats, hores absents, ID sense mesures, només capçalera...).
+* **`errores/`**: fitxers malformats (`m_*` de mesures, `c_*` de catàleg). El programa ha d'indicar la línia de l'error per `stderr` i acabar amb `EXIT_FAILURE`.
+
+```bash
+./secuencial tests/catalogo_mini.csv tests/validos/v_ceros.csv 
+./secuencial tests/errores/c_id_duplicado.csv tests/medidas_mini.csv; echo $?
+```
+
+---
+
+### 5. Format de Sortida
 
 La sortida s'emet per la sortida estàndard (`stdout`) en format **TSV** (valors separats per tabuladors), ordenada per `ID`, mostrant exclusivament els IDs presents al fitxer de mesures:
 
